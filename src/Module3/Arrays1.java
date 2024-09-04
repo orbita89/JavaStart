@@ -7,6 +7,8 @@ public class Arrays1 {
     public static void main(String[] args) {
         int[] mas = {1, 2, -3, 4, 25, 6, 17, -1, 9, 6};
 
+
+
         String str = Arrays.toString(mas); // перевод массива в строку для печати
         System.out.println(str);
         //Однако, если вы хотите просто «вызвать» или «вывести» массив,
