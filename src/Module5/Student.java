@@ -22,4 +22,24 @@ public class Student {
         // только к статическому полю
         baseScholarship = (int)(baseScholarship * k);
     }
+
+    public class Purchase {
+        String name;
+        int price;
+        double weight;
+        static double nds = 0.2;
+        int cost(){
+            return (int)(weight * price * (1 + nds));
+        }
+        static void changeNds(double value){
+            nds = value;
+        }
+    }
+
+    public class Aap {
+        Purchase milk = new Purchase();
+
+        int a = milk.cost();
+        double as = milk.weight;
+    }
 }
