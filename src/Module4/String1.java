@@ -8,6 +8,7 @@ public class String1 {
 
         String a = scan.next();
 
+
         System.out.println(a);
     }
 }
